@@ -1,0 +1,71 @@
+.footer {
+  position: relative;
+  text-align: center;
+  margin-top: 1em;
+  bottom: 0;
+  font: italic;
+  font-size: 10px;
+  font-weight: unset;
+  font-style: italic;
+ }
+ h4 {
+   font-size: large;
+   font-weight: bolder;
+ }
+ a { text-decoration: none; color: black;}
+ a:visited { text-decoration: none; color: black; }
+ a:hover { text-decoration: none; color: black; }
+ a:focus { text-decoration: none; color: black; }
+ a:hover, a:active { text-decoration: none; color: black; }
+ 
+ .nav {
+   background-color: rgba(175, 177, 180, 0.336);
+     height: auto;
+     text-align: center;
+     position: fixed;
+     left: 0;
+     top: 0;
+     z-index: 100;
+     width: 100%;
+ }
+ 
+ .nav a {
+     color: pink;
+     display: inline-block;
+     font-size: 16px;
+     font-weight: bold;
+     letter-spacing: 2px;
+     margin: 20px;
+     text-transform: uppercase;
+     text-decoration: none;
+ }
+   
+   .nav a:hover {
+     color: #000000;
+     padding: 10px;
+     border: 2px solid #000000;
+     border-radius: 15px;
+     animation: ease;
+ }
+img {
+    /* border-radius: 10%; */
+    /* max-width: 50%; */
+    /* display: block; */
+    border-style: groove;
+    animation-play-state: running;
+    align-items: center;
+    object-position: center;
+}
+body {
+  font-family: Handlee;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: overlay;
+  overflow-x: hidden;
+  background-color: aquamarine;
+}
+h3 {
+  font-size: large;
+  font-weight: bolder;
+}
